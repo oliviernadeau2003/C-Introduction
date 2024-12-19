@@ -1,0 +1,13 @@
+{
+    "files.associations": {
+        "string.h": "c",
+        "iostream": "c",
+        "stdio.h": "c",
+        "iterator": "c",
+        "xmemory": "c",
+        "xutility": "c",
+        "unistd.h": "c",
+        "stdlib.h": "c"
+    },
+    "C_Cpp.errorSquiggles": "enabled"
+}
