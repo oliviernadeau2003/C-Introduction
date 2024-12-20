@@ -22,6 +22,41 @@
 
         - UUID ? || ACCOUNT NUMBER ? || USERNAME & PASSWORD
 
+    - Advanced Features
+
+        - Interest Calculation:
+            - Calculate and apply interest to savings accounts
+            - Demonstrate loops and time-based calculations
+
+        - Transaction History:
+            - Maintain a log of all transactions
+            - Use arrays or dynamic memory allocation to store and display history
+
+        - Error Handling:
+            - Handle invalid inputs and retries for incorrect input
+
+        - Multi-user Support:
+            - Use a file to save account details
+            - Allow multiple users to log in and manage accounts
+
+        - Data Encryption:
+            - Basic password encryption (e.g., hashing with SHA256)
+            - Introduce security concepts like salting
+
+        - Account Types:
+            - Checking, savings, and business accounts with different rules
+
+    - Real-World Concepts
+
+        - Currency Conversion:
+            - Convert balances to other currencies using exchange rates
+
+        - Simulated Network Latency:
+            - Mimic real-world transaction delays
+
+        - Admin Role:
+            - Admin account to view/manage all accounts and transactions
+
 */
 
 void displayMenu();
