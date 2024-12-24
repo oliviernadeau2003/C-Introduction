@@ -23,7 +23,6 @@ int main()
 
     int nbPlayer = sizeof(players) / sizeof(players[0]);
     int nbRound = 0;
-    char input;
     do
     {
         // Game Loop

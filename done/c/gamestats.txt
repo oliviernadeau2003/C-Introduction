@@ -1,0 +1,5 @@
+--- Game Stat ---
+Name: Will      , Life : 1 , Turn Played : 26
+Name: Tom       , Life : -1, Turn Played : 13
+Name: Gab       , Life : -1, Turn Played : 19
+Name: Oli       , Life : -1, Turn Played : 25
