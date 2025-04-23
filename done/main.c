@@ -423,6 +423,7 @@ void twoD_arrays()
                          {4, 5, 6}
                         };
     */
+
     int numbers[2][3];
 
     int rows = sizeof(numbers) / sizeof(numbers[0]);
