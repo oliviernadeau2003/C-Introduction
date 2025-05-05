@@ -1,3 +1,5 @@
+#include <stdio.h>
+
 #include "./lib/md5.c"
 #include "./lib/rot-13.c"
 #include "./lib/sha256.c"
@@ -13,7 +15,7 @@ struct user
     int GID;
     char info[128];
     char home_directory[64];
-    char default_shell[64]
+    char default_shell[64];
 };
 
 void orot13() {}
@@ -27,7 +29,7 @@ void verify() {}
 int main()
 {
     char text[] = "Hello World";
-    printf("%s", text);
+    printf("%s\n", text);
 
     rot13(text);
     printf("%s", text);

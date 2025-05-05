@@ -11,12 +11,12 @@ int main(int argc, char const *argv[])
     //* Step 02 : Demonstrate that the program path is always the first argument passed
     printf("%d", argc);
 
+    //* Step 03 :
+    // TODO:
+
     //* Step ~ : (Out of context) Show them that the return keyword of the main function is always for the
     //*           operating system to know the "Exit Status" of the program. So if it worked or failed.
     // return 1;
-
-    //* Step 03 :
-    // TODO:
 
     //*
     //*
