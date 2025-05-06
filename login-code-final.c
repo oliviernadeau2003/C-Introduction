@@ -9,10 +9,17 @@ int main(int argc, char const *argv[])
     const char *password = argv[2];
 
     //* Step 02 : Demonstrate that the program path is always the first argument passed
-    printf("%d", argc);
+    printf("\nNumber of argument : %d\n\n", argc);
 
-    //* Step 03 :
-    // TODO:
+    // Make a loop to iterate through all argument
+    printf("List of argument(s) :\n\n");
+    for (int i = 0; i < argc; i++)
+    {
+        printf("%d. %s\n", i + 1, argv[i]);
+    }
+
+    //* Step 03 : Verify if the given user / password is valid
+    verify_password(/* ??? */);
 
     //* Step ~ : (Out of context) Show them that the return keyword of the main function is always for the
     //*           operating system to know the "Exit Status" of the program. So if it worked or failed.
@@ -22,7 +29,8 @@ int main(int argc, char const *argv[])
     //*
     //* Step 00 : Grant access or not. Usually, an API will return code like 200, 201, 203 or 404.
 
+    printf("\n");
     return 0;
 }
 
-int check_password(/* ??? */) {}
+int verify_password(/* ??? */) {}
